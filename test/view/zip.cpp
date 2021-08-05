@@ -122,6 +122,7 @@ int main()
     CHECK((rnd_rng.begin() - rnd_rng.end()) == -4);
     CHECK(rnd_rng.size() == 4u);
     CHECK(rnd_rng.size() == 4u);
+    CHECK(rnd_rng.size() == 4u);
 
     // zip_with
     {
